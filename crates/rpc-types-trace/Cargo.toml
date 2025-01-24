@@ -20,8 +20,8 @@ workspace = true
 
 [dependencies]
 alloy-primitives = { workspace = true, features = ["rlp", "serde"] }
-alloy-rpc-types-eth = { workspace = true, features = ["std", "serde"] }
-alloy-serde.workspace = true
+alloy-rpc-types-eth = { version = "0.9", features = ["std", "serde"] }
+alloy-serde = { version = "0.9" }
 
 serde.workspace = true
 serde_json.workspace = true
